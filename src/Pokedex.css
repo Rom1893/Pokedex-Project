@@ -1,0 +1,19 @@
+.Pokedex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Pokedex-Winner {
+    color: green;
+    text-align: center;
+}
+
+.Pokedex-Loser {
+    color: red;
+    text-align: center;
+}
+
+.exp{
+    text-align: center;
+}

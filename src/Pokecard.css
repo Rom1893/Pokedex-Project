@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+.Pokecard{
+    border: 2px solid aqua;
+    width: 250px;
+    padding: 10px;
+    margin: .5rem;
+    box-shadow: 7px 10px 12px -5px rgba(0,0,0,0.56);
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.Pokecard img:hover {
+    transform: scale(1.25);
+    opacity: 0.7;
+}
+
+.Pokecard img {
+    transition: all ease 500ms;
+}
+
+.Name {
+    font-family: 'Silkscreen', cursive;
+}
+
